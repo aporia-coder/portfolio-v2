@@ -14,5 +14,12 @@ module.exports = {
     'react/jsx-filename-extension': [1, { extensions: ['.js'] }],
     'import/newline-after-import': ['error', { count: 1 }],
     'react/react-in-jsx-scope': 'off',
+    'react/function-component-definition': [
+      2,
+      {
+        namedComponents: 'arrow-function',
+        unnamedComponents: 'arrow-function',
+      },
+    ],
   },
 }
