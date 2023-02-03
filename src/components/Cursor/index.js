@@ -15,7 +15,7 @@ const Cursor = () => {
     key: -1,
   })
 
-  React.useEffect(() => {
+  useEffect(() => {
     document.addEventListener('mousemove', (event) => {
       const { clientX, clientY } = event
 
